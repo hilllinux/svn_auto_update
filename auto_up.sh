@@ -6,8 +6,8 @@ flag_path=${base_path}/flag
 log_path=${base_path}/log
 nginx_config_file_dir=/etc/nginx/conf/conf.d
 svn=/usr/bin/svn
-svn_username=wangsongqing
-svn_passwd=1moodadmin
+svn_username=
+svn_passwd=
 
 if [ ! -f "$info_path" ]; then 
     exit;
